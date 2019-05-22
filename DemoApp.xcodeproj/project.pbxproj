@@ -12,6 +12,17 @@
 		578A966922952E2700DE40E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578A966722952E2700DE40E8 /* Main.storyboard */; };
 		578A966B22952E2900DE40E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578A966A22952E2900DE40E8 /* Assets.xcassets */; };
 		578A966E22952E2900DE40E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578A966C22952E2900DE40E8 /* LaunchScreen.storyboard */; };
+		578A967D2295366300DE40E8 /* ECommerceProductsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A96762295366300DE40E8 /* ECommerceProductsParser.swift */; };
+		578A967E2295366300DE40E8 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A96782295366300DE40E8 /* CategoryList.swift */; };
+		578A967F2295366300DE40E8 /* ECommerceProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A96792295366300DE40E8 /* ECommerceProducts.swift */; };
+		578A96802295366300DE40E8 /* InnerSubCategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A967A2295366300DE40E8 /* InnerSubCategoryList.swift */; };
+		578A96812295366300DE40E8 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A967B2295366300DE40E8 /* ProductList.swift */; };
+		578A96822295366300DE40E8 /* SubCategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A967C2295366300DE40E8 /* SubCategoryList.swift */; };
+		578A96882295367900DE40E8 /* SoryByListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A96832295367800DE40E8 /* SoryByListVC.swift */; };
+		578A96892295367900DE40E8 /* CategoryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A96842295367800DE40E8 /* CategoryListVC.swift */; };
+		578A968A2295367900DE40E8 /* SortByListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A96852295367800DE40E8 /* SortByListCell.swift */; };
+		578A968B2295367900DE40E8 /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A96862295367800DE40E8 /* ProductListCell.swift */; };
+		578A968C2295367900DE40E8 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A96872295367800DE40E8 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		578A966A22952E2900DE40E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578A966D22952E2900DE40E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578A966F22952E2900DE40E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578A96762295366300DE40E8 /* ECommerceProductsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECommerceProductsParser.swift; sourceTree = "<group>"; };
+		578A96782295366300DE40E8 /* CategoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		578A96792295366300DE40E8 /* ECommerceProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECommerceProducts.swift; sourceTree = "<group>"; };
+		578A967A2295366300DE40E8 /* InnerSubCategoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerSubCategoryList.swift; sourceTree = "<group>"; };
+		578A967B2295366300DE40E8 /* ProductList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		578A967C2295366300DE40E8 /* SubCategoryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryList.swift; sourceTree = "<group>"; };
+		578A96832295367800DE40E8 /* SoryByListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoryByListVC.swift; sourceTree = "<group>"; };
+		578A96842295367800DE40E8 /* CategoryListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListVC.swift; sourceTree = "<group>"; };
+		578A96852295367800DE40E8 /* SortByListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortByListCell.swift; sourceTree = "<group>"; };
+		578A96862295367800DE40E8 /* ProductListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
+		578A96872295367800DE40E8 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +78,39 @@
 			children = (
 				578A966322952E2700DE40E8 /* AppDelegate.swift */,
 				578A966522952E2700DE40E8 /* ViewController.swift */,
+				578A96872295367800DE40E8 /* CategoryCell.swift */,
+				578A96842295367800DE40E8 /* CategoryListVC.swift */,
+				578A96862295367800DE40E8 /* ProductListCell.swift */,
+				578A96852295367800DE40E8 /* SortByListCell.swift */,
+				578A96832295367800DE40E8 /* SoryByListVC.swift */,
+				578A96772295366300DE40E8 /* Model */,
+				578A96752295366300DE40E8 /* Parser */,
 				578A966722952E2700DE40E8 /* Main.storyboard */,
 				578A966A22952E2900DE40E8 /* Assets.xcassets */,
 				578A966C22952E2900DE40E8 /* LaunchScreen.storyboard */,
 				578A966F22952E2900DE40E8 /* Info.plist */,
 			);
 			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		578A96752295366300DE40E8 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				578A96762295366300DE40E8 /* ECommerceProductsParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		578A96772295366300DE40E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				578A96782295366300DE40E8 /* CategoryList.swift */,
+				578A96792295366300DE40E8 /* ECommerceProducts.swift */,
+				578A967A2295366300DE40E8 /* InnerSubCategoryList.swift */,
+				578A967B2295366300DE40E8 /* ProductList.swift */,
+				578A967C2295366300DE40E8 /* SubCategoryList.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578A968C2295367900DE40E8 /* CategoryCell.swift in Sources */,
+				578A96892295367900DE40E8 /* CategoryListVC.swift in Sources */,
+				578A967F2295366300DE40E8 /* ECommerceProducts.swift in Sources */,
 				578A966622952E2700DE40E8 /* ViewController.swift in Sources */,
+				578A96882295367900DE40E8 /* SoryByListVC.swift in Sources */,
 				578A966422952E2700DE40E8 /* AppDelegate.swift in Sources */,
+				578A968B2295367900DE40E8 /* ProductListCell.swift in Sources */,
+				578A96802295366300DE40E8 /* InnerSubCategoryList.swift in Sources */,
+				578A968A2295367900DE40E8 /* SortByListCell.swift in Sources */,
+				578A96822295366300DE40E8 /* SubCategoryList.swift in Sources */,
+				578A96812295366300DE40E8 /* ProductList.swift in Sources */,
+				578A967D2295366300DE40E8 /* ECommerceProductsParser.swift in Sources */,
+				578A967E2295366300DE40E8 /* CategoryList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +342,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V2REPBC399;
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gopal.DemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsourz.demoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Vsourz DemoApp Development";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +361,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V2REPBC399;
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gopal.DemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vsourz.demoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Vsourz DemoApp Development";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

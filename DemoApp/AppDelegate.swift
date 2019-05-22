@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  DemoApp
+//  SAT
 //
-//  Created by tosc188 on 22/05/19.
-//  Copyright © 2019 tosc188. All rights reserved.
+//  Created by Avinay on 17/05/19.
+//  Copyright © 2019 Avinay. All rights reserved.
 //
 
 import UIKit
@@ -11,6 +11,9 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    static let shared = UIApplication.shared.delegate as! AppDelegate
+    static let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    
     var window: UIWindow?
 
 
